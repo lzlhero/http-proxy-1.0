@@ -12,9 +12,9 @@ var isNeedProxy = require('./proxy.pac');
 /* MUST BE SOCKS5 PROXY ADDRESS */
 const socksConfig = {
   ipaddress: '127.0.0.1',
-  port: 8888,
-  type: 5
+  port: 8888
 };
+socksConfig.type = 5;
 const allBySocks = false;
 const socketTimeout = 10000;
 
