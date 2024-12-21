@@ -268,8 +268,9 @@ var httpProxy = http.createServer()
   .setTimeout(socketTimeout, function() {
     log(`${isBySocks ? '*' : ' '} request <?: ${clientRequest.url}`);
 
-    // proxyRequest.socket equal serverResponse.socket
+    // destroy proxyRequest and socket manually
     closeSocket(proxyRequest.socket);
+    proxyRequest.destroy();
   })
   // normal or socks proxy request error
   .on('error', function(err) {
