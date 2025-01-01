@@ -337,7 +337,7 @@ var httpProxy = http.createServer()
       connectPipe(clientSocket, serverSocket, head, isBySocks, clientRequest.url);
     });
   }
-  // noraml 'connect'
+  // normal 'connect'
   else {
     try {
       var serverSocket = net.createConnection(port, hostname, function() {
