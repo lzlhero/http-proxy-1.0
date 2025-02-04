@@ -75,6 +75,10 @@ var list = [
   "chatgpt.com",
   "oaistatic.com",
   "openai.com",
+  "line.me",
+  "line-apps.com",
+  "line-scdn.net",
+  "line.naver.jp",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -189,6 +193,10 @@ var list = [
   "minzhuzhongguo.org",
   "renminbao.com",
   "chineseinla.com",
+  "archive.org",
+  "sydneytoday.com",
+  "jinriaozhou.com",
+  "mediatodaygroup.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -241,6 +249,8 @@ var list = [
   "xcafe.com",
   "qorno.com",
   "hdtube.porn",
+  "onlyhentaistuff.com",
+  "jkv.app",
 ];
 
 
