@@ -10,6 +10,7 @@ const { socksHost, socksPort, isNeedProxy } = require('./proxy.pac');
 
 
 // config values
+const socketKeepIdle = 60000;
 const socketTimeout = 10000;
 const socksConfig = { ipaddress: socksHost, port: socksPort, type: 5 };
 
@@ -303,6 +304,9 @@ var httpProxy = http.createServer()
 // head is buffer <Buffer>
 .on('connect', function(clientRequest, clientSocket, head) {
 
+  // set client socket keep idle time
+  clientSocket.setKeepAlive(true, socketKeepIdle);
+
   /* https 'connect' proxy */
   var { hostname, port } = url.parse(`https://${clientRequest.url}`);
   port = parseInt(port, 10) || 443;
@@ -331,6 +335,8 @@ var httpProxy = http.createServer()
         return;
       }
 
+      // set server socket keep idle time
+      serverSocket.setKeepAlive(true, socketKeepIdle);
       // listen 'connect' sockets events
       connectPipeEvents(clientSocket, serverSocket, isBySocks, clientRequest.url);
       // serverSocket is server socket <net.Socket>
@@ -340,7 +346,13 @@ var httpProxy = http.createServer()
   // normal 'connect'
   else {
     try {
-      var serverSocket = net.createConnection(port, hostname, function() {
+      var options = {
+        host: hostname,
+        port: port,
+        keepAlive: true,
+        keepAliveInitialDelay: socketKeepIdle
+      };
+      var serverSocket = net.createConnection(options, function() {
         // serverSocket is server socket <net.Socket>
         connectPipe(clientSocket, serverSocket, head, isBySocks, clientRequest.url);
       });
