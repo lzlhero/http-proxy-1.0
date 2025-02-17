@@ -23,6 +23,17 @@ function log(...arg) {
 }
 
 
+// validate url string
+function isValidHttpUrl(url) {
+  try {
+    const object = new URL(url);
+    return object.protocol === 'http:' || object.protocol === 'https:';
+  } catch (err) {
+    return false;
+  }
+}
+
+
 // destroy socket resources
 function destroySocket() {
   for (var i = 0; i < arguments.length; i++) {
@@ -187,7 +198,7 @@ function connectPipeEvents(clientSocket, serverSocket, isBySocks, url) {
     destroySocket(clientSocket, serverSocket);
   })
   .on('close', function() {
-    log(`${isBySocks ? '*' : ' '} connect <C: ${url}`);
+    log(`${isBySocks ? '*' : ' '} connect <|: ${url}`);
     destroySocket(clientSocket, serverSocket);
   });
 
@@ -201,7 +212,7 @@ function connectPipeEvents(clientSocket, serverSocket, isBySocks, url) {
     destroySocket(serverSocket, clientSocket);
   })
   .on('close', function() {
-    log(`${isBySocks ? '*' : ' '} connect >C: ${url}`);
+    log(`${isBySocks ? '*' : ' '} connect >|: ${url}`);
     destroySocket(serverSocket, clientSocket);
   });
 
@@ -232,6 +243,14 @@ var httpProxy = http.createServer()
   if (!hostname) return httpServer(clientRequest, proxyResponse);
 
   /* http/https 'request' proxy */
+
+  // url must be valid
+  if (!isValidHttpUrl(clientRequest.url)) {
+    console.log(`invalid request with: ${clientRequest.url}`);
+    proxyResponse.destroy();
+    return;
+  }
+
   var isBySocks = isNeedProxy(hostname);
   var options = {
     agent: isBySocks ? new socks.Agent({ proxy: socksConfig }, false, false) : null,
