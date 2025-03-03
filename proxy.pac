@@ -100,6 +100,7 @@ var list = [
   "apkmonk.com",
   "apkcombo.com",
   "apkflash.net",
+  "apkflash.com",
   "apk4fun.com",
   "apkhere.com",
   "androidapksfree.com",
@@ -211,6 +212,10 @@ var list = [
   "btdig.com",
   "proton.me",
   "xiaomi.eu",
+  "pixnet.net",
+  "pixfs.net",
+  "pixnet.cc",
+  "pimg.tw",
 
   "pornhub.com",
   "phncdn.com",
