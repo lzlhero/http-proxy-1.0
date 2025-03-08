@@ -23,6 +23,7 @@ var list = [
   "googlevideo.com",
   "googleapis.com",
   "googleblog.com",
+  "googlezip.net",
   "withgoogle.com",
   "appspot.com",
   "blogspot.com",
@@ -216,6 +217,8 @@ var list = [
   "pixfs.net",
   "pixnet.cc",
   "pimg.tw",
+  "mega.nz",
+  "mega.co.nz",
 
   "pornhub.com",
   "phncdn.com",
