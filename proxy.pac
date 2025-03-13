@@ -3,6 +3,7 @@ var socksHost = "127.0.0.1";
 var socksPort = 1080;
 var socksAll = false;
 var list = [
+  "goog",
   "google",
   "g.co",
   "goo.gl",
@@ -219,6 +220,11 @@ var list = [
   "pimg.tw",
   "mega.nz",
   "mega.co.nz",
+  "sstatic.net",
+  "gravatar.com",
+  "tiktok.com",
+  "tiktokv.com",
+  "tiktokcdn.com",
 
   "pornhub.com",
   "phncdn.com",
