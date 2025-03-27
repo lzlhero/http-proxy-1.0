@@ -227,6 +227,7 @@ var list = [
   "tiktokcdn.com",
   "hostloc.com",
   "xposed.info",
+  "worldjournal.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -281,6 +282,13 @@ var list = [
   "hdtube.porn",
   "onlyhentaistuff.com",
   "jkv.app",
+  "babesrater.com",
+  "pictoa.com",
+  "celebgate.org",
+  "imperiodefamosas.com",
+  "saatchiart.com",
+  "porndig.com",
+  "fapello.com",
 ];
 
 
