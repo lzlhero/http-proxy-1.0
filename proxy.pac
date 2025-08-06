@@ -36,6 +36,7 @@ var list = [
   "2mdn.net",
   "youtube-nocookie.com",
   "alphagoteach.deepmind.com",
+  "go.dev",
   "golang.org",
   "bing.com",
   "bing.net",
@@ -81,6 +82,8 @@ var list = [
   "line-apps.com",
   "line-scdn.net",
   "line.naver.jp",
+  "x.ai",
+  "grok.com",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -228,6 +231,9 @@ var list = [
   "hostloc.com",
   "xposed.info",
   "worldjournal.com",
+  "xijinping.one",
+  "marxists.org",
+  "yhg007.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -306,6 +312,11 @@ var list = [
   "tubezzz.net",
   "snow-plus.net",
   "allcinema.net",
+  "thefappening.pro",
+  "fineartamerica.com",
+  "1anime.me",
+  "saradahentai.com",
+  "hentai-moon.com",
 ];
 
 
