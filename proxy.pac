@@ -251,6 +251,12 @@ var list = [
   "btcc.com",
   "kucoin.com",
   "kucoin.plus",
+  "hk01.com",
+  "sinchew.com.my",
+  "ettoday.net",
+  "singtao.ca",
+  "singtaousa.com",
+  "guangming.com.my",
 
   "pornhub.com",
   "phncdn.com",
@@ -334,6 +340,11 @@ var list = [
   "1anime.me",
   "saradahentai.com",
   "hentai-moon.com",
+  "fleshbot.com",
+  "cdn.live",
+  "gate.cc",
+  "celebsunmasked.com",
+  "videocelebs.net",
 ];
 
 
