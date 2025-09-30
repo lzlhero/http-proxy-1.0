@@ -43,6 +43,7 @@ var list = [
   "github.com",
   "github.io",
   "github.blog",
+  "githubassets.com",
   "githubusercontent.com",
   "facebook.com",
   "facebook.net",
@@ -75,6 +76,7 @@ var list = [
   "flickr.com",
   "tumblr.com",
   "godaddy.com",
+  "wsimg.com",
   "chatgpt.com",
   "oaistatic.com",
   "openai.com",
@@ -94,6 +96,7 @@ var list = [
   "vine.co",
   "kej.tw",
   "s3.amazonaws.com",
+  "amazon.co.jp",
   "w3schools.com",
   "substack.com",
   "medium.com",
@@ -261,6 +264,10 @@ var list = [
   "youknow.tv",
   "greasyfork.org",
   "kedou.life",
+  "threads.com",
+  "ausmis.com",
+  "bangumi.tv",
+  "fluidplayer.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -350,6 +357,8 @@ var list = [
   "celebsunmasked.com",
   "videocelebs.net",
   "upskirt.tv",
+  "jiedm.com",
+  "hanime.tv",
 ];
 
 
