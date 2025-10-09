@@ -86,6 +86,7 @@ var list = [
   "line.naver.jp",
   "x.ai",
   "grok.com",
+  "termux.dev",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -268,6 +269,7 @@ var list = [
   "ausmis.com",
   "bangumi.tv",
   "fluidplayer.com",
+  "viralcham.com",
 
   "pornhub.com",
   "phncdn.com",
