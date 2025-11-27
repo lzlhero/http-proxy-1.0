@@ -92,6 +92,7 @@ var list = [
   "wikipedia.org",
   "wikimedia.org",
   "wikileaks.org",
+  "wikisource.org",
   "stackoverflow.com",
   "v2ex.com",
   "vimeo.com",
@@ -151,6 +152,16 @@ var list = [
   "wenxuecity.com",
   "rfa.org",
   "udn.com",
+  "radio-canada.ca",
+  "mirrormedia.mg",
+  "ttv.com.tw",
+  "tvbs.com.tw",
+  "pts.org.tw",
+  "technews.tw",
+  "mingpao.com",
+  "mpweekly.com",
+  "cna.com.tw",
+  "cnyes.com",
   "appledaily.com",
   "appledaily.com.tw",
   "thenewslens.com",
@@ -277,6 +288,8 @@ var list = [
   "huaren.us",
   "upmedia.mg",
   "nirsoft.net",
+  "capgeox.org",
+  "suno.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -368,6 +381,9 @@ var list = [
   "upskirt.tv",
   "jiedm.com",
   "hanime.tv",
+  "sis001.com",
+  "sisurl.com",
+  "haho.moe",
 ];
 
 
