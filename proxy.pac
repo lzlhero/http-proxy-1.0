@@ -88,6 +88,7 @@ var list = [
   "x.ai",
   "grok.com",
   "termux.dev",
+  "mozilla.org",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -290,6 +291,7 @@ var list = [
   "nirsoft.net",
   "capgeox.org",
   "suno.com",
+  "soundofhope.org",
 
   "pornhub.com",
   "phncdn.com",
