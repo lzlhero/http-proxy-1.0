@@ -87,8 +87,10 @@ var list = [
   "line.naver.jp",
   "x.ai",
   "grok.com",
+  "grokipedia.com",
   "termux.dev",
   "mozilla.org",
+  "mozilla.net",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -292,6 +294,11 @@ var list = [
   "capgeox.org",
   "suno.com",
   "soundofhope.org",
+  "torrentkitty.net",
+  "daum.net",
+  "videohelp.com",
+  "qbittorrent.org",
+  "utorrent.com",
 
   "pornhub.com",
   "phncdn.com",
