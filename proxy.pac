@@ -91,6 +91,7 @@ var list = [
   "termux.dev",
   "mozilla.org",
   "mozilla.net",
+  "claude.ai",
 
   "wikipedia.org",
   "wikimedia.org",
@@ -299,6 +300,7 @@ var list = [
   "videohelp.com",
   "qbittorrent.org",
   "utorrent.com",
+  "ext.to",
 
   "pornhub.com",
   "phncdn.com",
@@ -393,6 +395,17 @@ var list = [
   "sis001.com",
   "sisurl.com",
   "haho.moe",
+  "xxbrits.com",
+  "simply-hentai.com",
+  "donmai.us",
+  "yande.re",
+  "gelbooru.com",
+  "rule34.us",
+  "hentaipaw.com",
+  "hentaihand.com",
+  "ddd-smart.net",
+  "doujinnomori.com",
+  "wnacg.com",
 ];
 
 
