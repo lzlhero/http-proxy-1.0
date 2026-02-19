@@ -124,6 +124,7 @@ var list = [
   "ycombinator.com",
   "quora.com",
   "uptodown.com",
+  "uptodown.net",
   "bbc.com",
   "bbc.co.uk",
   "bbci.co.uk",
@@ -301,6 +302,8 @@ var list = [
   "qbittorrent.org",
   "utorrent.com",
   "ext.to",
+  "linux.do",
+  "doosho.com",
 
   "pornhub.com",
   "phncdn.com",
