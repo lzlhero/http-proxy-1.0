@@ -315,6 +315,10 @@ var list = [
   "huggingface.co",
   "moltbook.com",
   "netflix.com",
+  "hbo.com",
+  "wikiversity.org",
+  "theguardian.com",
+  "scratch.mit.edu",
 
   "pornhub.com",
   "phncdn.com",
@@ -421,6 +425,11 @@ var list = [
   "doujinnomori.com",
   "wnacg.com",
   "onlyfans.com",
+  "t66y.com",
+  "gotporn.com",
+  "drtuber.com",
+  "e-hentai.org",
+  "dlsite.com",
 ];
 
 
