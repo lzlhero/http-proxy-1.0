@@ -312,6 +312,8 @@ var list = [
   "scribdassets.com",
   "vansky.com",
   "thepiratebay.org",
+  "huggingface.co",
+  "moltbook.com",
 
   "pornhub.com",
   "phncdn.com",
@@ -417,6 +419,7 @@ var list = [
   "ddd-smart.net",
   "doujinnomori.com",
   "wnacg.com",
+  "onlyfans.com",
 ];
 
 
